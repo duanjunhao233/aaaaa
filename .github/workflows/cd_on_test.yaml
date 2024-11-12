@@ -8,7 +8,7 @@ env:
   VERSION: main-1.0.0		      
 jobs:
   build:			      
-    runs-on: runner_on_habor
+    runs-on: runner_on_control
     steps:
       - name: checkout on main		      
         uses: actions/checkout@v4
