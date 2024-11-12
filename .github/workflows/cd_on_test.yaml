@@ -31,7 +31,7 @@ jobs:
         run: docker push harbor.mydomain.com/myproject/demo-app:$VERSION
 
   production:				
-    runs-on: production		
+    runs-on: runner_on_control	
     needs: build				
     steps:
       - name: checkout on main			
